@@ -36,9 +36,9 @@
             this.chkps3 = new System.Windows.Forms.CheckBox();
             this.lable3 = new System.Windows.Forms.Label();
             this.chkbox1 = new System.Windows.Forms.CheckBox();
-            this.xhkbox2 = new System.Windows.Forms.CheckBox();
+            this.chkbox2 = new System.Windows.Forms.CheckBox();
             this.chkps2 = new System.Windows.Forms.CheckBox();
-            this.xhkbox3 = new System.Windows.Forms.CheckBox();
+            this.chkbox3 = new System.Windows.Forms.CheckBox();
             this.btnOk = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -61,6 +61,7 @@
             this.rdb360.TabStop = true;
             this.rdb360.Text = "360";
             this.rdb360.UseVisualStyleBackColor = true;
+            this.rdb360.CheckedChanged += new System.EventHandler(this.rdb360_CheckedChanged);
             // 
             // rdbps3
             // 
@@ -72,6 +73,7 @@
             this.rdbps3.TabStop = true;
             this.rdbps3.Text = "ps3";
             this.rdbps3.UseVisualStyleBackColor = true;
+            this.rdbps3.CheckedChanged += new System.EventHandler(this.rdbps3_CheckedChanged);
             // 
             // lable2
             // 
@@ -121,15 +123,15 @@
             this.chkbox1.Text = "火影";
             this.chkbox1.UseVisualStyleBackColor = true;
             // 
-            // xhkbox2
+            // chkbox2
             // 
-            this.xhkbox2.AutoSize = true;
-            this.xhkbox2.Location = new System.Drawing.Point(128, 189);
-            this.xhkbox2.Name = "xhkbox2";
-            this.xhkbox2.Size = new System.Drawing.Size(60, 16);
-            this.xhkbox2.TabIndex = 2;
-            this.xhkbox2.Text = "航海王";
-            this.xhkbox2.UseVisualStyleBackColor = true;
+            this.chkbox2.AutoSize = true;
+            this.chkbox2.Location = new System.Drawing.Point(128, 189);
+            this.chkbox2.Name = "chkbox2";
+            this.chkbox2.Size = new System.Drawing.Size(60, 16);
+            this.chkbox2.TabIndex = 2;
+            this.chkbox2.Text = "航海王";
+            this.chkbox2.UseVisualStyleBackColor = true;
             // 
             // chkps2
             // 
@@ -141,15 +143,15 @@
             this.chkps2.Text = "生死格鬥";
             this.chkps2.UseVisualStyleBackColor = true;
             // 
-            // xhkbox3
+            // chkbox3
             // 
-            this.xhkbox3.AutoSize = true;
-            this.xhkbox3.Location = new System.Drawing.Point(211, 189);
-            this.xhkbox3.Name = "xhkbox3";
-            this.xhkbox3.Size = new System.Drawing.Size(48, 16);
-            this.xhkbox3.TabIndex = 2;
-            this.xhkbox3.Text = "賽車";
-            this.xhkbox3.UseVisualStyleBackColor = true;
+            this.chkbox3.AutoSize = true;
+            this.chkbox3.Location = new System.Drawing.Point(211, 189);
+            this.chkbox3.Name = "chkbox3";
+            this.chkbox3.Size = new System.Drawing.Size(48, 16);
+            this.chkbox3.TabIndex = 2;
+            this.chkbox3.Text = "賽車";
+            this.chkbox3.UseVisualStyleBackColor = true;
             // 
             // btnOk
             // 
@@ -159,6 +161,7 @@
             this.btnOk.TabIndex = 3;
             this.btnOk.Text = "確定";
             this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // WinRadiobtnChkBx
             // 
@@ -166,8 +169,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(400, 299);
             this.Controls.Add(this.btnOk);
-            this.Controls.Add(this.xhkbox3);
-            this.Controls.Add(this.xhkbox2);
+            this.Controls.Add(this.chkbox3);
+            this.Controls.Add(this.chkbox2);
             this.Controls.Add(this.chkbox1);
             this.Controls.Add(this.chkps2);
             this.Controls.Add(this.chkps3);
@@ -195,9 +198,9 @@
         private System.Windows.Forms.CheckBox chkps3;
         private System.Windows.Forms.Label lable3;
         private System.Windows.Forms.CheckBox chkbox1;
-        private System.Windows.Forms.CheckBox xhkbox2;
+        private System.Windows.Forms.CheckBox chkbox2;
         private System.Windows.Forms.CheckBox chkps2;
-        private System.Windows.Forms.CheckBox xhkbox3;
+        private System.Windows.Forms.CheckBox chkbox3;
         private System.Windows.Forms.Button btnOk;
     }
 }
