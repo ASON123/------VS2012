@@ -16,5 +16,12 @@ namespace 程式設計練習VS2012.Ch09.練習
         {
             InitializeComponent();
         }
+       
+        private void Exam01_Load(object sender, EventArgs e)
+        {
+            int.Parse(txtadd.ToString());
+            int.Parse(txtpwd.ToString());
+
+        }
     }
 }

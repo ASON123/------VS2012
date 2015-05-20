@@ -28,11 +28,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.lblShow = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnAgain = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(30, 25);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(94, 110);
+            this.btn1.TabIndex = 0;
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
+            // btn2
+            // 
+            this.btn2.Location = new System.Drawing.Point(165, 25);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(94, 110);
+            this.btn2.TabIndex = 0;
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            // 
+            // btn3
+            // 
+            this.btn3.Location = new System.Drawing.Point(299, 25);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(94, 110);
+            this.btn3.TabIndex = 0;
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            // 
+            // lblShow
+            // 
+            this.lblShow.AutoSize = true;
+            this.lblShow.Location = new System.Drawing.Point(28, 169);
+            this.lblShow.Name = "lblShow";
+            this.lblShow.Size = new System.Drawing.Size(33, 12);
+            this.lblShow.TabIndex = 1;
+            this.lblShow.Text = "label1";
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(252, 229);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 2;
+            this.btnExit.Text = "離開";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnAgain
+            // 
+            this.btnAgain.Location = new System.Drawing.Point(107, 229);
+            this.btnAgain.Name = "btnAgain";
+            this.btnAgain.Size = new System.Drawing.Size(75, 23);
+            this.btnAgain.TabIndex = 2;
+            this.btnAgain.Text = "重玩";
+            this.btnAgain.UseVisualStyleBackColor = true;
+            this.btnAgain.Click += new System.EventHandler(this.btnAgain_Click);
+            // 
+            // WinButton1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(429, 287);
+            this.Controls.Add(this.btnAgain);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.lblShow);
+            this.Controls.Add(this.btn3);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.btn1);
+            this.Name = "WinButton1";
             this.Text = "WinButton1";
+            this.Load += new System.EventHandler(this.WinButton1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Label lblShow;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnAgain;
     }
 }

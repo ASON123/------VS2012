@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace 程式設計練習VS2012
+namespace 程式設計練習VS2012.Ch09.練習
 {
     static class Program
     {
@@ -18,7 +18,7 @@ namespace 程式設計練習VS2012
             Application.SetCompatibleTextRenderingDefault(false);
 
             // 實作時請記得修改起始表單
-            Application.Run(new frmMain());
+            Application.Run(new 程式設計練習VS2012.Ch09.範例.WinFormFirst());
         }
     }
 }

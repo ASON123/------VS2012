@@ -1,4 +1,4 @@
-﻿namespace 程式設計練習VS2012.Ch09.練習
+﻿namespace 程式設計練習VS2012.Ch11.練習
 {
     partial class Exam03
     {
@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Exam03
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Name = "Exam03";
             this.Text = "Exam03";
+            this.Load += new System.EventHandler(this.Exam03_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

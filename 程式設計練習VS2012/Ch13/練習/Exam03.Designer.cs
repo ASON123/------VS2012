@@ -1,4 +1,4 @@
-﻿namespace 程式設計練習VS2012.Ch09.練習
+﻿namespace 程式設計練習VS2012.Ch13.練習
 {
     partial class Exam03
     {

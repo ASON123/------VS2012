@@ -244,6 +244,54 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ch09\範例\Guess.resx">
+      <DependentUpon>Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch09\範例\WinButton1.resx">
+      <DependentUpon>WinButton1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch09\範例\WinFormFirst.resx">
+      <DependentUpon>WinFormFirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch09\範例\WinTextBox.resx">
+      <DependentUpon>WinTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch09\範例\WinToolTip1.resx">
+      <DependentUpon>WinToolTip1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch09\練習\Exam01.resx">
+      <DependentUpon>Exam01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\範例\WinChkLstBx.resx">
+      <DependentUpon>WinChkLstBx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\範例\WinRadiobtnChkBx.resx">
+      <DependentUpon>WinRadiobtnChkBx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\練習\Exam01.resx">
+      <DependentUpon>Exam01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\練習\Exam02.resx">
+      <DependentUpon>Exam02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\練習\Exam03.resx">
+      <DependentUpon>Exam03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\練習\Exam04.resx">
+      <DependentUpon>Exam04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch10\練習\Exam05.resx">
+      <DependentUpon>Exam05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch11\練習\Exam03.resx">
+      <DependentUpon>Exam03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch11\練習\Exam04.resx">
+      <DependentUpon>Exam04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ch12\練習\Exam01.resx">
+      <DependentUpon>Exam01.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

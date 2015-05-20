@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace 程式設計練習VS2012.Ch09.練習
+namespace 程式設計練習VS2012.Ch10.練習
 {
     public partial class Exam04 : Form
     {
         public Exam04()
         {
             InitializeComponent();
+        }
+
+        private void Exam04_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

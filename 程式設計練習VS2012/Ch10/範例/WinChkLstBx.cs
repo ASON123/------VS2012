@@ -16,5 +16,10 @@ namespace 程式設計練習VS2012.Ch10.範例
         {
             InitializeComponent();
         }
+
+        private void WinChkLstBx_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
